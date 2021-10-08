@@ -19,8 +19,6 @@ services:
       - etcd-00vol:/data.etcd
     networks:
       - etcd
-    ports:
-      - 2380:2379
     deploy:
       replicas: 1
       update_config:
