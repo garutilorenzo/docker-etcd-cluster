@@ -30,4 +30,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run Tests    
-      run: test/etcd-test.py
+      run: python3 test/etcd-test.py

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import etcd3
 
 etcd = etcd3.client(host='127.0.0.1', port=2379)
