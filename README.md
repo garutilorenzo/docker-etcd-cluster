@@ -98,3 +98,8 @@ v8n8qlo3dm30   etcd_nginx            replicated   1/1        nginx:alpine       
 
 
 
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
